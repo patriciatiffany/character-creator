@@ -1,4 +1,4 @@
 .buttonRow {
-  white-space: nowrap;
+  white-space: nowrap;   /* secret sauce */
   overflow-x: auto;
 }
