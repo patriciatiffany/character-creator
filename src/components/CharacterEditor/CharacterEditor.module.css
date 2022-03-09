@@ -7,6 +7,7 @@
   max-width: 1024px;
   padding-left: 32px;
   padding-right: 32px;
+  position: relative;
 }
 
 .header {
@@ -37,4 +38,12 @@
 
 .controlColumn {
   width: 50%;
+}
+
+.background {
+  position: fixed;
+  height: 40%; /* works because position fixed, contained by viewport */
+  width: 100%; /* otherwise defaults to zero width */
+  bottom: 0;
+  background: hsl(195deg, 20%, 86%);
 }
